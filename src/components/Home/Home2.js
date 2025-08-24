@@ -1,13 +1,8 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.png";
-import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { Col, Container, Row } from "react-bootstrap";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Tilt from "react-parallax-tilt";
+import myImg from "../../Assets/avatar.png";
 
 function Home2() {
   return (
@@ -19,44 +14,55 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Highly motivated and skilled final-year Computer Science student
-              with a strong foundation in Web development & DSA. Proficient in
+              I am deeply passionate about{" "}
+              <b className="purple">Artificial Intelligence</b>&nbsp;
+              and its application in building intelligent, scalable systems.
+              Most of my work revolves around designing solutions that combine{" "}
               <b className="purple">
-                {" "}
-                MERN stack (MongoDB, Express.js, React.js, Node.js)
-              </b>{" "}
-              , with hands-on experience building dynamic, responsive, and
-              user-friendly web applications. Adept in programming languages
-              such as <b className="purple"> Java and C++ </b> , with a keen
-              understanding of{" "}
+                OpenAI models, LangChain, and Retrieval-Augmented Generation
+                (RAG)&nbsp;
+              </b>
+              to process unstructured data, enable real-time information
+              retrieval, and create smart, adaptive workflows.
+              <br />
+              <br />
+              At <b className="purple">Softevia LLP</b>, I contributed to
+              projects such as{" "}
               <b className="purple">
-                {" "}
-                Object-Oriented Programming, Data Structures and Algorithms.
-              </b>{" "}
-              Demonstrates excellent problem-solving abilities, a collaborative
-              mindset, and a commitment to continuous learning and improvement.
+                AI-powered chatbots, automated email parsers, and GoLang-based
+                database services
+              </b>
+              , where I integrated vector embeddings, natural language
+              processing, and cloud-based architectures to deliver
+              enterprise-grade automation.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products. </b>
-              </i>
+              While AI is my core strength, I also have hands-on experience with{" "}
+              <b className="purple">full-stack development</b> using the{" "}
+              <b className="purple">MERN stack</b>, and I apply this to create
+              user-facing applications that integrate seamlessly with
+              intelligent backends.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My interests lie in{" "}
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                  AI-driven applications, LLM-powered products, and real-time
+                  automation systems
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              , and I’m constantly exploring ways to push the boundaries of how
+              intelligent software can improve workflows and decision-making.
+              <br />
+              <br />
+              In addition, I serve as a{" "}
+              <b className="purple">Core Team Member & Mentor</b> at the{" "}
+              <b className="purple">Google Developer Student Club (GDSC)</b>,
+              where I guide students in learning and applying AI and modern
+              technologies.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />

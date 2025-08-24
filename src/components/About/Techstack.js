@@ -1,6 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { FaGolang } from "react-icons/fa6";
+import { FaLinode } from "react-icons/fa";
+import { SiOpenai } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -19,6 +22,15 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaGolang />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiOpenai />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaLinode />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
